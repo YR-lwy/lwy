@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我要求购 - 校园优淘</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .buy-form{
+            width:700px;
+            margin:40px auto;
+            padding:30px;
+            background:#f5f7fa;
+            border-radius:12px;
+        }
+        .buy-form h3{
+            text-align:center;
+            color:#42A5F5;
+            margin-bottom:24px;
+        }
+        .form-item{
+            margin-bottom:18px;
+        }
+        .form-item label{
+            display:block;
+            margin-bottom:6px;
+            font-weight:bold;
+        }
+        .form-item input,.form-item textarea,.form-item select{
+            width:100%;
+            padding:10px;
+            border:1px solid #ddd;
+            border-radius:6px;
+        }
+        .submit-buy{
+            width:100%;
+            padding:12px;
+            background:#FFB74D;
+            border:none;
+            color:#fff;
+            font-size:16px;
+            border-radius:6px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-wrap">
+            <a href="index.html" class="logo">校园优淘</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="goods.html" class="nav-link">二手好物</a>
+                <a href="buy.html" class="nav-link active">我要求购</a>
+                <a href="publish.html" class="nav-link">发布闲置</a>
+                <a href="profile.html" class="nav-link">个人中心</a>
+            </nav>
+            <div class="header-btn">
+                <button class="auth-btn">校园实名认证</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="buy-form">
+        <h3>发布求购需求，系统自动匹配卖家</h3>
+        <div class="form-item">
+            <label>求购物品分类</label>
+            <select>
+                <option>教材书籍</option>
+                <option>数码电子产品</option>
+                <option>运动器材</option>
+                <option>服饰生活用品</option>
+            </select>
+        </div>
+        <div class="form-item">
+            <label>物品名称</label>
+            <input type="text" placeholder="例：大二C语言教材">
+        </div>
+        <div class="form-item">
+            <label>心理预算（元）</label>
+            <input type="number" placeholder="填写你能接受的最高价格">
+        </div>
+        <div class="form-item">
+            <label>期望自提地点</label>
+            <input type="text" placeholder="例：3号宿舍楼、图书馆">
+        </div>
+        <div class="form-item">
+            <label>物品详细要求</label>
+            <textarea rows="4" placeholder="成色、配件、使用年限等要求"></textarea>
+        </div>
+        <button class="submit-buy" onclick="alert('求购发布成功！系统将为你匹配对应卖家')">提交求购信息</button>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-wrap">
+            <div class="footer-left">
+                <h3>校园优淘</h3>
+                <p>本校专属闲置循环平台，让校园好物二次利用</p>
+            </div>
+            <div class="footer-right">
+                <p>客服校内微信：campustao2026</p>
+                <p>©2026 校园优淘 版权所有</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

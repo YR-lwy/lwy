@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二手好物 - 校园优淘</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .goods-filter{
+            padding:30px 0;
+            text-align:center;
+        }
+        .filter-btn{
+            margin:0 8px;
+            padding:8px 16px;
+            border:1px solid #42A5F5;
+            background:#fff;
+            border-radius:6px;
+            color:#42A5F5;
+        }
+        .filter-btn.active{
+            background:#42A5F5;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-wrap">
+            <a href="index.html" class="logo">校园优淘</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="goods.html" class="nav-link active">二手好物</a>
+                <a href="buy.html" class="nav-link">我要求购</a>
+                <a href="publish.html" class="nav-link">发布闲置</a>
+                <a href="profile.html" class="nav-link">个人中心</a>
+            </nav>
+            <div class="header-btn">
+                <button class="auth-btn">校园实名认证</button>
+            </div>
+        </div>
+    </header>
+
+   <div class="goods-filter container">
+    <div style="margin-bottom:16px;">
+        <button class="filter-btn active">全部</button>
+        <button class="filter-btn">教材书籍</button>
+        <button class="filter-btn">数码电子</button>
+        <button class="filter-btn">运动器材</button>
+        <button class="filter-btn">服饰生活用品</button>
+    </div>
+    <div style="margin-bottom:16px;">
+        <span>价格筛选：</span>
+        <button class="filter-btn">0-20元</button>
+        <button class="filter-btn">20-50元</button>
+        <button class="filter-btn">50元以上</button>
+    </div>
+    <div style="margin-bottom:16px;">
+        <span>成色筛选：</span>
+        <button class="filter-btn">全新</button>
+        <button class="filter-btn">九成新</button>
+        <button class="filter-btn">八成新</button>
+        <button class="filter-btn">五成新</button>
+    </div>
+    <div style="margin-bottom:16px;">
+        <span>排序方式：</span>
+        <button class="filter-btn">发布时间最新</button>
+        <button class="filter-btn">自提距离由近到远</button>
+    </div>
+    <div>
+        <button class="filter-btn active" style="background:#FFB74D;color:#fff;">一键开启AI专属推荐</button>
+    </div>
+</div>
+
+    <section class="hot-goods container" style="background:#fff;padding-bottom:80px;">
+        <h2>全部校园闲置好物</h2>
+        <div class="goods-card-wrap">
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>大学英语四级真题全套</h4>
+                <p class="price">¥15</p>
+                <p class="loc">1号宿舍楼自提</p>
+                <button class="card-btn">私信卖家</button>
+            </div>
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>机械键盘 青轴九成新</h4>
+                <p class="price">¥89</p>
+                <p class="loc">教学楼A栋</p>
+                <button class="card-btn">私信沟通</button>
+            </div>
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>瑜伽垫+健身弹力带套装</h4>
+                <p class="price">¥25</p>
+                <p class="loc">操场看台</p>
+                <button class="card-btn">私信卖家</button>
+            </div>
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>冬季加厚羽绒服 L码</h4>
+                <p class="price">¥45</p>
+                <p class="loc">5栋宿舍楼下</p>
+                <button class="card-btn">私信卖家</button>
+            </div>
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>线性代数习题集全新</h4>
+                <p class="price">¥8</p>
+                <p class="loc">图书馆门口</p>
+                <button class="card-btn">私信卖家</button>
+            </div>
+            <div class="goods-card">
+                <div class="goods-img"></div>
+                <h4>平板支架+电容笔套装</h4>
+                <p class="price">¥32</p>
+                <p class="loc">二食堂门口</p>
+                <button class="card-btn">私信卖家</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-wrap">
+            <div class="footer-left">
+                <h3>校园优淘</h3>
+                <p>本校专属闲置循环平台，让校园好物二次利用</p>
+            </div>
+            <div class="footer-right">
+                <p>客服校内微信：campustao2026</p>
+                <p>©2026 校园优淘 版权所有</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
